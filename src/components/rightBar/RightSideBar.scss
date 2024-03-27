@@ -1,0 +1,155 @@
+.rightBar {
+  
+  width: 100%;
+  height: 100%;
+
+  border-left: 1px solid #171821;
+  // backdrop-filter: blur(50px);
+  border-radius: 12px;
+  background: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .navbar {
+    width: 100%;
+    height: 8%;
+  }
+
+  .parent {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .progressbardiv {
+      width: 70%;
+
+      .state {
+        /* Statistics */
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        color: #978b8b;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+      .percent {
+        /* 0% */
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        text-align: center;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+
+      .dot {
+        width: 8px;
+        height: 8px;
+        background: rgb(0, 255, 34);
+        border-radius: 50%;
+        
+      }
+
+      .progress {
+        /* Frame 27 */
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        /* Progress */
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #a7a4a4;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        span{
+          font-size: small;
+        }
+      }
+    }
+
+    .parent2 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      align-items: center;
+
+      .item1 {
+        display: flex;
+        width: 80%;
+        justify-content:space-between;
+        align-items: center;
+
+        img {
+          /* icons */
+
+          width: 39.79px;
+          height: 39px;
+        }
+        span {
+          /* Xth Step */
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .btnclass {
+    width: 70%;
+    height: 33px;
+    background: rgb(0, 255, 34);
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    button {
+      background: white;
+      color: black;
+      width: 70%;
+      height: 100%;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}

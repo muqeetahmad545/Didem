@@ -1,0 +1,50 @@
+.landing {
+  background: #010101;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+
+  .borderdiv {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+
+    .item1 {
+      /* Line 2 */
+      width: 20%;
+      height: 100%;
+
+      border: 1px solid #88bbef;
+    }
+  }
+
+  .rightDiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .videoPlayer {
+      width: 100%; /* Use a percentage of the parent container's width */
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Maintain the aspect ratio */
+    }
+
+    .title {
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4vw; /* Use vw units for font size */
+      line-height: 140%;
+      text-align: right;
+      color: #ffffff;
+      cursor: pointer;
+      padding-right: 20px;
+    }
+  }
+}

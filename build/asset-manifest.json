@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4e1cbe75.css",
+    "main.js": "./static/js/main.d15b1469.js",
+    "static/media/landingBrain.gif": "./static/media/landingBrain.fb7545b75dabd90f7afe.gif",
+    "static/media/Inter_variable.ttf": "./static/media/Inter_variable.aadb65ac45347ff46699.ttf",
+    "static/media/guidance.png": "./static/media/guidance.5edd15f99a98fa41b1a2.png",
+    "static/media/video_bg.png": "./static/media/video_bg.aeb9b87d1f662caa6500.png",
+    "static/media/Tomorrow-Regular.ttf": "./static/media/Tomorrow-Regular.2542f093e1f1d0812d57.ttf",
+    "static/media/Ekran Resmi 2023-04-07 22.21 1.png": "./static/media/Ekran Resmi 2023-04-07 22.21 1.9ea293751861456cc17c.png",
+    "static/media/gifimg.jpg": "./static/media/gifimg.c74f6b4357ef09b4ec6f.jpg",
+    "index.html": "./index.html",
+    "main.4e1cbe75.css.map": "./static/css/main.4e1cbe75.css.map",
+    "main.d15b1469.js.map": "./static/js/main.d15b1469.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1cbe75.css",
+    "static/js/main.d15b1469.js"
+  ]
+}

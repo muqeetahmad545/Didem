@@ -1,0 +1,22 @@
+.navbarparent {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .rightdiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    svg {
+      color: white;
+    }
+
+    /* Group 175 */
+
+    width: 123px;
+  }
+  /* Note: backdrop-filter has minimal browser support */
+}

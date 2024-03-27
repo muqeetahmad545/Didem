@@ -1,0 +1,223 @@
+.guidance {
+  /* Guidance */
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #010101;
+
+  background-image: url("../../assets/images/guidance.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Frame 39 */
+
+  /* Choose Your Professor */
+
+  .reactangle {
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Choose_Your_Professor {
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 140%;
+      /* or 90px */
+      text-align: center;
+
+      color: #ffffff;
+    }
+
+    .Choose_Your_Professor_Text {
+      /* By choosing a professor, you will be guided by them throughout the game. */
+
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 140%;
+      /* identical to box height, or 34px */
+      text-align: center;
+
+      color: #ffffff;
+    }
+
+    .drdiv {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      gap: 10%;
+      margin-top: 5%;
+
+      .drparent {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .img {
+          /* Ekran Resmi 2023-04-07 22.21 1 */
+
+          // background: url("../../assets/images/Ekran\ Resmi\ 2023-04-07\ 22.21\ 1.png");
+          border-radius: 100px;
+          cursor: pointer;
+        }
+
+        .doctorname {
+          font-family: "Tomorrow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 140%;
+
+          text-align: center;
+
+          color: #ffffff;
+          /* or 56px */
+        }
+      }
+    }
+
+    .doctorname2 {
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 140%;
+      /* or 56px */
+      text-align: center;
+
+      color: #ffffff;
+    }
+
+    .img2 {
+      /* Ekran Resmi 2023-04-07 22.21 1 */
+
+      background: url("../../assets/images/Ekran\ Resmi\ 2023-04-07\ 22.21\ 1.png");
+      border-radius: 100px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .guidance {
+    /* Guidance */
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #010101;
+
+    background-image: url("../../assets/images/guidance.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Frame 39 */
+
+    /* Choose Your Professor */
+
+    .reactangle {
+      width: 60%;
+      height: 80%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .Choose_Your_Professor {
+        font-family: "Tomorrow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 140%;
+        /* or 90px */
+        text-align: center;
+
+        color: #ffffff;
+      }
+
+      .Choose_Your_Professor_Text {
+        /* By choosing a professor, you will be guided by them throughout the game. */
+
+        font-family: "Tomorrow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        /* identical to box height, or 34px */
+        text-align: center;
+
+        color: #ffffff;
+      }
+
+      .drdiv {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-top: 5%;
+
+        .drparent {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+
+          .img {
+            /* Ekran Resmi 2023-04-07 22.21 1 */
+
+            background: url("../../assets/images/Ekran\ Resmi\ 2023-04-07\ 22.21\ 1.png");
+            border-radius: 100px;
+            cursor: pointer;
+          }
+
+          .doctorname {
+            font-family: "Tomorrow";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 140%;
+
+            text-align: center;
+
+            color: #ffffff;
+            /* or 56px */
+          }
+        }
+      }
+
+      .doctorname2 {
+        font-family: "Tomorrow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 140%;
+        /* or 56px */
+        text-align: center;
+
+        color: #ffffff;
+      }
+
+      .img2 {
+        /* Ekran Resmi 2023-04-07 22.21 1 */
+
+        background: url("../../assets/images/Ekran\ Resmi\ 2023-04-07\ 22.21\ 1.png");
+        border-radius: 100px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,328 @@
+.welcome {
+  /* Welcome */
+
+  height: 100%;
+  background: #010101;
+  display: flex;
+
+  .borderdiv {
+    display: flex;
+    min-width: 40%;
+    min-height: 100%;
+    justify-content: space-evenly;
+
+    .item1 {
+      /* Line 2 */
+      width: 20%;
+      min-height: 100%;
+      border-left: 1px solid #88bbef;
+      border-right: 1px solid #88bbef;
+    }
+  }
+
+  .content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .Welcomeheading {
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 140%;
+      /* or 67px */
+
+      margin-left: -20%;
+      background: black;
+      padding: 20px;
+
+      color: #ffffff;
+    }
+
+    .contentbody {
+      margin-left: -5%;
+      display: flex;
+      flex-direction: column;
+      // padding-bottom: 20px;
+      height: 100%;
+      // gap: 70px;
+
+      .welcomBody {
+        /* Welcome to the Next-Gen Neurosurgical Training. You are about to embark on a serious game designed to help you improve your surgical skills and knowledge through a hybrid training approach. */
+        width: 90%;
+        font-family: "Tomorrow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 140%;
+        /* or 45px */
+        text-align: justify;
+
+        color: #ffffff;
+      }
+
+      .Through_out_the_Game {
+        font-family: "Tomorrow";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 140%;
+        color: #ffffff;
+        padding-top: 35px;
+        padding-bottom: 35px;
+      }
+      .divbodytext {
+        display: flex;
+        width: 90%;
+        border-left: 1px solid #88bbef;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        
+        // border: 1px solid red;
+
+        .bottomVector{
+          width: 10%;
+          margin-left: -10px;
+          // border: 1px solid red;
+          height: 500px;
+
+          .vector {
+            position: absolute;
+            background: #dde1e6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            ;
+
+          }
+        }
+
+        .parentVector {
+          width: 10%;
+          margin-left: -10px;
+          // border: 1px solid red;
+          
+
+          .vector {
+            position: absolute;
+            background: #dde1e6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+
+          }
+        }
+
+        .welcomBodytext {
+          /* Welcome to the Next-Gen Neurosurgical Training. You are about to embark on a serious game designed to help you improve your surgical skills and knowledge through a hybrid training approach. */
+          width: 90%;
+          font-family: "Tomorrow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 140%;
+          text-align: justify;
+          /* or 45px */
+
+          color: #ffffff;
+        }
+      }
+      
+      .nextdive {
+        // height: 200px;
+        width: 100%;
+        display: flex;
+        border-left:1px solid #88bbef;
+        padding-bottom: 20px;
+        
+        
+        justify-content: end;
+       
+
+        .Start_here {
+          width: 400px;
+
+          font-family: "Tomorrow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 140%;
+          text-align: right;
+          align-self: flex-end;
+          margin-right: 70px;
+
+          color: #94c9ff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  // .lineCommon {
+  //   position: absolute;
+  //   width: 1920.08px;
+  //   height: 0px;
+  //   border: 1px solid #88bbef;
+  //   transform: rotate(90deg);
+  // }
+
+  // .headingStyle {
+  //   font-family: "Tomorrow";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 48px;
+  //   line-height: 140%;
+  //   /* or 67px */2
+  //   color: #ffffff;
+  // }
+
+  // .bodyStyle {
+  //   font-family: "Tomorrow";
+  //   font-style: normal;
+  //   font-weight: 400;
+  //   font-size: 32px;
+  //   line-height: 140%;
+  //   color: #ffffff;
+  // }
+
+  // .line1 {
+  //   @extend .lineCommon;
+  //   left: 127.91px;
+  //   top: -0.04px;
+  // }
+
+  // .line2 {
+  //   @extend .lineCommon;
+  //   left: 229px;
+  //   top: 0px;
+  // }
+  // .line3 {
+  //   @extend .lineCommon;
+  //   left: 317px;
+  //   top: -0.04px;
+  // }
+  // .line4 {
+  //   @extend .lineCommon;
+  //   left: 435.25px;
+  //   top: 118.98px;
+  // }
+
+  // .line8 {
+  //   @extend .lineCommon;
+
+  //   left: 495px;
+  //   top: 418px;
+  // }
+
+  // .Welcomeheading {
+  //   @extend .headingStyle;
+  //   position: absolute;
+  //   width: 248px;
+  //   height: 43px;
+  //   left: 421px;
+  //   top: 21px;
+  // }
+  // .welcomBody {
+  //   /* Welcome to the Next-Gen Neurosurgical Training. You are about to embark on a serious game designed to help you improve your surgical skills and knowledge through a hybrid training approach. */
+
+  //   position: absolute;
+  //   width: 1065px;
+  //   height: 227px;
+  //   left: 482px;
+  //   top: 100px;
+
+  //   font-family: "Tomorrow";
+  //   font-style: normal;
+  //   font-weight: 400;
+  //   font-size: 32px;
+  //   line-height: 140%;
+  //   /* or 45px */
+
+  //   color: #ffffff;
+  // }
+
+  // .vectorCommon {
+  //   position: absolute;
+  //   background: #dde1e6;
+  //   border-radius: 50%;
+  // }
+
+  // .vector1 {
+  //   @extend .vectorCommon;
+  //   left: 30.12%;
+  //   right: 68.31%;
+  //   top: 67.1%;
+  //   bottom: 31.65%;
+  // }
+
+  // .vector2 {
+  //   @extend .vectorCommon;
+  //   left: 30.12%;
+  //   right: 68.31%;
+  //   top: 35.22%;
+  //   bottom: 63.53%;
+  // }
+  // .vector3 {
+  //   @extend .vectorCommon;
+  //   left: 30.12%;
+  //   right: 68.31%;
+  //   top: 49.57%;
+  //   bottom: 49.18%;
+  // }
+  // .vector4 {
+  //   @extend .vectorCommon;
+  //   left: 30.12%;
+  //   right: 68.31%;
+  //   top: 25.59%;
+  //   bottom: 73.16%;
+  // }
+
+  // .you_will_encounter {
+  //   @extend .bodyStyle;
+  //   position: absolute;
+  //   width: 848px;
+  //   height: 241px;
+  //   left: 561px;
+  //   top: 910px;
+  // }
+
+  // .the_goal_of_this_game {
+  //   @extend .bodyStyle;
+  //   position: absolute;
+  //   width: 779px;
+  //   height: 292px;
+  //   left: 567px;
+  //   top: 1236px;
+  // }
+
+  // .You_will_be_guided {
+  //   @extend .bodyStyle;
+  //   position: absolute;
+  //   width: 821px;
+  //   height: 99px;
+  //   left: 554px;
+  //   top: 465px;
+  // }
+
+  // .You_will_be_performing {
+  //   /* You will be performing surgical techniques in a hands-on way on the SurgeonsLab simulator. The simulator will provide you with realistic haptic feedback, allowing you to feel as if you are performing an actual surgery. */
+  //   @extend .bodyStyle;
+
+  //   position: absolute;
+  //   width: 861px;
+  //   height: 242px;
+  //   left: 554px;
+  //   top: 643px;
+  // }
+
+  .fadeIn {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+  }
+
+  .visible {
+    opacity: 1;
+  }
+}

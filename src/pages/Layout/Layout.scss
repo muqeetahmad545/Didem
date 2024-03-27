@@ -1,0 +1,79 @@
+.Layout {
+  /* Home */
+
+  width: 100vw;
+  height: 100vh;
+  background: #010101;
+  display: flex;
+  position: relative;
+
+  .menu {
+    /* Group 175 */
+
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    right: 20px;
+    top: 41px;
+  }
+
+  .LeftSideBar {
+    width: 5%;
+    height: 100%;
+  }
+
+  // .NavBar {
+  //   position: absolute;
+  //   height: 10%;
+  //   width: 100%;
+  // }
+
+  .Layoutbody {
+    // background: red;
+    width: 95%;
+    height: 100%;
+
+    // background: rgb(54, 49, 49);
+  }
+}
+
+@media (max-width: 1366px) {
+  .Layout {
+    /* Home */
+
+    width: 100vw;
+    height: 100vh;
+    background: #010101;
+    display: flex;
+    position: relative;
+
+    .menu {
+      /* Group 175 */
+
+      position: absolute;
+      width: 123px;
+      height: 25px;
+      right: 20px;
+      top: 25px;
+    }
+
+    .LeftSideBar {
+      width: 5%;
+      height: 100%;
+    }
+
+    // .NavBar {
+    //   position: absolute;
+    //   height: 10%;
+    //   width: 100%;
+    // }
+
+    .Layoutbody {
+      // background: red;
+      width: 95%;
+      height: 100%;
+
+      // background: rgb(54, 49, 49);
+    }
+  }
+}

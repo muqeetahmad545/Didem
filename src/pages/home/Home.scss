@@ -1,0 +1,258 @@
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .home2 {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .topSide {
+      height: 8%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .leftdiv {
+        /* Simulator Connected */
+
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+        padding-left: 50px;
+        .texto {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: rgb(0, 255, 34);
+        }
+        .dot {
+          width: 8px;
+          height: 8px;
+          background: green;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .leftSide {
+      width: 100%;
+      height: 92%;
+
+      .presentation {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .presentationtxt {
+          width: 100%;
+          height: 20%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .files {
+          width: 100%;
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .rerectangle {
+            /* Rectangle 214 */
+
+            width: 80%;
+            height: 91.96px;
+
+            background: #1a1a1a;
+            border: 1px solid #88bbef;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+            span {
+              /* Case Presentation */
+
+              font-family: "Tomorrow";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 140%;
+              /* or 34px */
+              text-align: center;
+
+              color: #ffffff;
+            }
+
+            svg {
+              /* Vector */
+
+              font-size: 30px;
+            }
+          }
+
+          .content {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .item {
+              width: 27%;
+              height: 33%;
+              background: #1a1a1a;
+              border-radius: 20px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-direction: column;
+              // border: 2px solid red;
+              
+              cursor: pointer;
+              .number{   
+                padding-top: 10px;
+           
+                // border: 2px solid red;
+              }
+              .stepText{
+                padding-bottom: 20px;
+                height: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+              }
+              span {
+                /* 1 Step 1 Text */
+                // padding: 20px;
+                font-family: "Tomorrow";
+                font-style: normal;
+                font-weight: 500;
+                // border: 2px solid green;
+                font-size: 24px;
+                line-height: 140%;
+                /* or 34px */
+                text-align: center;
+
+                color: #515151;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .parentQuestion {
+      width: 96%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+
+      .questioncomponent {
+        width: 100%;
+        height: 69%;
+      }
+      .hrr {
+        /* Rectangle 217 */
+
+        width: 100%;
+        // height: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // transform: rotate(90deg);
+        .horizontalline {
+          width: 100%;
+          height: 8px;
+          align-items: center;
+          background: #171821;
+          backdrop-filter: blur(50px);
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 12px;
+        }
+      }
+
+      .stepsList {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .item {
+          width: 171px;
+          height:100%;
+          background: #1a1a1a;
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          position: relative;
+          
+          // span{
+          //   border: 2px solid red;
+            
+          // }
+          .imagestyle {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 40px;
+            height: 38px;
+          }
+
+          span {
+            /* 1 Step 1 Text */
+
+            font-family: "Tomorrow";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            /* or 34px */
+            text-align: center;
+
+            color: #515151;
+          }
+
+          .time {
+            position: absolute;
+            bottom: 10px;
+            font-family: "Tomorrow";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 140%;
+            /* or 34px */
+            text-align: center;
+
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .rightSide {
+    width: 17%;
+    height: 100%;
+  }
+}

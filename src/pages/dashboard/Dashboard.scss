@@ -1,0 +1,788 @@
+.dashboard {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  .rightside {
+    width: 15%;
+    height: 100%;
+  }
+
+  .completedparent {
+    width: 84%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .message {
+      width: 90%;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+    .topSide {
+      height: 5%;
+      width: 80%;
+      display: flex;
+      align-items: center;
+
+      .leftdiv {
+        /* Simulator Connected */
+
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        .texto {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #1ed760;
+        }
+        .dot {
+          width: 8px;
+          height: 8px;
+          background: green;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .div1 {
+      font-family: "Inter";
+      margin-top: 20px !important;
+      width: 90%;
+      height: 10%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .div1child {
+        width: 22%;
+        height: 60%;
+        border-radius: 5.3861px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: white;
+
+        background: rgba(255, 255, 255, 0.08);
+      }
+    }
+
+    .stepsList {
+      width: 90%;
+      height: 20%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .item {
+        width: 161px;
+        height: 100%;
+        background: #1a1a1a;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        .imagestyle {
+          position: absolute;
+          top: 2px;
+          right: 0px;
+          width: 40px;
+          height: 38px;  
+        }
+
+        span {
+          /* 1 Step 1 Text */
+
+          font-family: "Tomorrow";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 140%;
+          /* or 34px */
+          text-align: center;
+
+          color: white;
+        }
+
+        .time {
+          position: absolute;
+          bottom: 10px;
+          font-family: "Tomorrow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 140%;
+          /* or 34px */
+          text-align: center;
+
+          color: red;
+        }
+      }
+    }
+
+    .performance {
+      width: 90%;
+      height: 45%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .performancediv {
+        width: 40%;
+        height: 90%;
+        background: #1a1a1a;
+        border-radius: 20px;
+        // position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .textDiv {
+          width: 90%;
+          height: 25%;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          justify-content: center;
+
+          .heading {
+            /* Title */
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            /* or 25px */
+
+            /* Secondary/Primary White */
+            color: #ffffff;
+          }
+          .bodyy {
+            /* Statistic based on scoreboard */
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            /* identical to box height, or 14px */
+
+            /* Gray/Gray-400 */
+            color: #a0aec0;
+          }
+        }
+        .progressdiv {
+          width: 60%;
+          height: 55%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .progressbardiv {
+            width: 70%;
+            height: 70%;
+            margin-top: -40px;
+            // z-index: 5;
+
+            .percent {
+              z-index: 5;
+
+              font-style: normal;
+              font-weight: 700;
+              font-size: 28px;
+              line-height: 100%;
+              /* identical to box height, or 28px */
+
+              color: #ffffff !important;
+            }
+          }
+          // .ant-progress-inner {
+          //   width: 220px !important;
+          //   height: 220px !important;
+          //   font-size: 30px !important;
+
+          //   span {
+          //     position: absolute !important;
+          //     top: 95% !important;
+          //     z-index: 5 !important;
+
+          //     font-style: normal;
+          //     font-weight: 700;
+          //     font-size: 28px;
+          //     line-height: 100%;
+          //     /* identical to box height, or 28px */
+
+          //     color: #ffffff !important;
+          //   }
+          // }
+        }
+
+        .staticsdiv {
+          width: 50%;
+          height: 15%;
+          margin-top: -40px;
+          background: linear-gradient(126.97deg, #010101 28.26%, #2d353d 91.2%);
+          backdrop-filter: blur(60px);
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 20px;
+          display: flex;
+          padding: 10px;
+          justify-content: space-around;
+
+          span {
+            /* Performance */
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 100%;
+            /* identical to box height, or 12px */
+
+            /* Gray/Gray-400 */
+            color: #a0aec0;
+          }
+
+          .percentshow {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+        }
+      }
+
+      .stepsdiv {
+        width: 55%;
+
+        height: 90%;
+        background: #1a1a1a;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+
+        flex-direction: column;
+        padding: 5px;
+
+        .timeheading {
+          display: flex;
+          justify-content: space-around;
+
+          .heading {
+            /* Steps */
+
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            color: #ffffff;
+          }
+        }
+
+        .timeBody {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "Inter";
+
+          span {
+            color: white !important;
+            padding-left: 10px;
+            width: 60%;
+          }
+
+          .ant-progress {
+            width: 30% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            .ant-progress-text {
+              order: 1;
+
+              /* 60% */
+
+              // font-family: "Plus Jakarta Display";
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              /* identical to box height, or 20px */
+
+              color: #ffffff;
+            }
+            .ant-progress-outer {
+              order: 2;
+            }
+
+            .ant-progress-inner {
+              background: white;
+            }
+          }
+        }
+
+        // .steps {
+        //   width: 60%;
+        //   height: 100%;
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        //   justify-content: space-around;
+
+        //   span {
+        //     /* Budget */
+
+        //     font-family: "Inter";
+        //     font-style: normal;
+        //     font-weight: 400;
+        //     font-size: 14px;
+        //     line-height: 140%;
+        //     /* identical to box height, or 20px */
+
+        //     color: #ffffff;
+        //   }
+        // }
+
+        // .time {
+        //   width: 40%;
+        //   height: 100%;
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        //   justify-content: space-around;
+
+        //   span {
+        //     color: white !important;
+        //   }
+
+        //   .ant-progress {
+        //     display: flex !important;
+        //     flex-direction: column !important;
+        //     .ant-progress-text {
+        //       order: 1;
+
+        //       /* 60% */
+
+        //       font-family: "Plus Jakarta Display";
+        //       font-style: normal;
+        //       font-weight: 700;
+        //       font-size: 14px;
+        //       /* identical to box height, or 20px */
+
+        //       color: #ffffff;
+        //     }
+        //     .ant-progress-outer {
+        //       order: 2;
+        //     }
+        //   }
+        // }
+      }
+    }
+    .scorboard {
+      width: 90%;
+      height: 8%;
+      display: flex;
+
+      border-bottom: 2px solid #1a1a1a;
+      margin-top: -30px;
+      align-items: flex-end;
+      padding-bottom: 20px;
+      .bottomdiv:hover {
+        scale: 1.05;
+      }
+      .bottomdiv {
+        width: 85%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: scale 0.3s ease;
+
+        span {
+          /* Scoreboard */
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 140%;
+          /* identical to box height, or 20px */
+
+          color: #ffffff;
+        }
+
+        .scorbrd {
+          width: 25%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .icons {
+          width: 25%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+        }
+
+        .date {
+          width: 25%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+        }
+
+        .progress {
+          width: 25%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+
+          .ant-progress {
+            height: 20px !important;
+          }
+          .ant-progress-text {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+          .ant-progress-outer {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width: 1366px) {
+//   .completedparent {
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+
+//     .div1 {
+//       width: 90%;
+//       height: 10%;
+//       display: flex;
+//       flex-wrap: nowrap;
+//       justify-content: space-between;
+//       .div1child {
+//         width: 22%;
+//         height: 40px;
+//         border-radius: 5.3861px;
+//         background: rgba(255, 255, 255, 0.08);
+//       }
+//     }
+
+//     .stepsList {
+//       width: 85%;
+//       height: 25%;
+//       display: flex;
+//       flex-wrap: nowrap;
+//       justify-content: space-between;
+//       align-items: center;
+//       gap: 20px;
+
+//       .item {
+//         width: 100%;
+//         height: 100%;
+//         background: #1a1a1a;
+//         border-radius: 20px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//         cursor: pointer;
+//         position: relative;
+
+//         .imagestyle {
+//           position: absolute;
+//           top: 0px;
+//           right: 0px;
+//           width: 20px;
+//           height: 20px;
+//         }
+
+//         span {
+//           /* 1 Step 1 Text */
+
+//           font-family: "Tomorrow";
+//           font-style: normal;
+//           font-weight: 500;
+//           font-size: 20px;
+//           line-height: 140%;
+//           /* or 34px */
+//           text-align: center;
+
+//           color: #515151;
+//         }
+//       }
+//     }
+
+//     .performance {
+//       width: 85%;
+//       height: 50%;
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+
+//       .performancediv {
+//         width: 40%;
+//         height: 80%;
+//         background: #1a1a1a;
+//         border-radius: 20px;
+//         position: relative;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+
+//         .textDiv {
+//           width: 90%;
+//           height: 25%;
+//           display: flex;
+//           flex-direction: column;
+//           gap: 5px;
+//           justify-content: center;
+
+//           .heading {
+//             /* Title */
+
+//             font-family: "Inter";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 18px;
+//             line-height: 140%;
+//             /* or 25px */
+
+//             /* Secondary/Primary White */
+//             color: #ffffff;
+//           }
+//           .bodyy {
+//             /* Statistic based on scoreboard */
+
+//             font-family: "Inter";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 14px;
+//             line-height: 100%;
+//             /* identical to box height, or 14px */
+
+//             /* Gray/Gray-400 */
+//             color: #a0aec0;
+//           }
+//         }
+//         .progressdiv {
+//           width: 60%;
+//           height: 60%;
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+
+//           .ant-progress-inner {
+//             width: 130px !important;
+//             height: 130px !important;
+//             font-size: 30px !important;
+
+//             span {
+//               position: absolute !important;
+//               top: 87% !important;
+//               z-index: 5 !important;
+
+//               font-style: normal;
+//               font-weight: 700;
+//               font-size: 20px;
+//               line-height: 100%;
+//               /* identical to box height, or 28px */
+
+//               color: #ffffff !important;
+//             }
+//           }
+//         }
+
+//         .staticsdiv {
+//           width: 50%;
+//           height: 35px;
+//           margin-top: -10%;
+//           background: linear-gradient(126.97deg, #010101 28.26%, #2d353d 91.2%);
+//           backdrop-filter: blur(60px);
+//           /* Note: backdrop-filter has minimal browser support */
+//           border-radius: 20px;
+//           display: flex;
+//           padding: 5px;
+//           justify-content: space-around;
+
+//           span {
+//             /* Performance */
+
+//             font-family: "Inter";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 10px;
+//             line-height: 100%;
+//             /* identical to box height, or 12px */
+
+//             /* Gray/Gray-400 */
+//             color: #a0aec0;
+//           }
+
+//           .percentshow {
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: flex-end;
+//           }
+//         }
+//       }
+
+//       .stepsdiv {
+//         width: 55%;
+//         height: 80%;
+//         background: #1a1a1a;
+//         border-radius: 20px;
+//         display: flex;
+//         justify-content: center;
+
+//         .heading {
+//           /* Steps */
+
+//           font-family: "Inter";
+//           font-style: normal;
+//           font-weight: 400;
+//           font-size: 16px;
+//           line-height: 19px;
+
+//           color: #ffffff;
+//         }
+
+//         .steps {
+//           width: 60%;
+//           height: 100%;
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           justify-content: space-around;
+
+//           span {
+//             /* Budget */
+
+//             font-family: "Inter";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 14px;
+//             line-height: 140%;
+//             /* identical to box height, or 20px */
+
+//             color: #ffffff;
+//           }
+//         }
+
+//         .time {
+//           width: 40%;
+//           height: 100%;
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           justify-content: space-around;
+
+//           span {
+//             color: white !important;
+//           }
+//         }
+//       }
+//     }
+//     .scorboard {
+//       width: 100%;
+//       height: 15%;
+//       display: flex;
+//       justify-content: center;
+//       align-items: flex-end;
+//       padding-bottom: 10px;
+
+//       .bottomdiv {
+//         width: 85%;
+//         height: 40%;
+//         border-bottom: 2px solid #1a1a1a;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+
+//         span {
+//           /* Scoreboard */
+
+//           font-family: "Inter";
+//           font-style: normal;
+//           font-weight: 400;
+//           font-size: 14px;
+//           line-height: 140%;
+//           /* identical to box height, or 20px */
+
+//           color: #ffffff;
+//         }
+
+//         .scorbrd {
+//           width: 25%;
+//           height: 100%;
+//           display: flex;
+//           align-items: center;
+//           gap: 30px;
+//         }
+
+//         .icons {
+//           width: 25%;
+//           height: 100%;
+//           display: flex;
+//           align-items: center;
+//         }
+
+//         .date {
+//           width: 25%;
+//           height: 100%;
+//           display: flex;
+//           align-items: center;
+//         }
+
+//         .progress {
+//           width: 25%;
+//           height: 100%;
+//           display: flex;
+//           align-items: center;
+
+//           .ant-progress {
+//             height: 20px !important;
+//           }
+//           .ant-progress-text {
+//             position: absolute;
+//             top: 0px;
+//             left: 0px;
+//           }
+//           .ant-progress-outer {
+//             position: absolute;
+//             left: 0px;
+//             bottom: 0px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

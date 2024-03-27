@@ -1,0 +1,57 @@
+.left {
+  /* Rectangle 217 */
+
+  width: 88px;
+  height: 100%;
+
+  background: #171821;
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+
+  span {
+    /* 1 */
+
+    font-family: "Tomorrow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 140%;
+    /* or 134px */
+    text-align: right;
+
+    color: rgba(255, 255, 255, 0.58);
+  }
+}
+
+@media (max-width: 1366px) {
+  .left {
+    /* Rectangle 217 */
+
+    width: 60px;
+    height: 100%;
+
+    background: #171821;
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+
+    span {
+      /* 1 */
+
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 96px;
+      line-height: 140%;
+      /* or 134px */
+      text-align: right;
+
+      color: rgba(255, 255, 255, 0.58);
+    }
+  }
+}

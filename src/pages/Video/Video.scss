@@ -1,0 +1,70 @@
+.video {
+  /* Video */
+
+  // position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("../../assets/images/video_bg.png");
+
+  background-color: #010101;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+
+  .reactangle {
+    /* Rectangle 205 */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: 500px;
+
+    background: #1a1a1a;
+    border-radius: 20px;
+    position: relative;
+
+    .spipbutton {
+      bottom: 86px;
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      z-index: 1000;
+
+      button {
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 0;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        color: #fff;
+        direction: ltr;
+        font-size: 18px;
+        line-height: normal;
+        min-width: 0;
+        padding: 10px 6px 8px 10px;
+        width: auto;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+
+    .videotext {
+      /* Welcome Video by Prof. (Synthesia) */
+      cursor: pointer;
+      font-family: "Tomorrow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 140%;
+      /* or 90px */
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+}
